@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CA86161F053B9D008D78F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA86151F053B9D008D78F2 /* main.m */; };
+		14CA86191F053B9D008D78F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA86181F053B9D008D78F2 /* AppDelegate.m */; };
+		14CA861C1F053B9D008D78F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA861B1F053B9D008D78F2 /* ViewController.m */; };
+		14CA861F1F053B9D008D78F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CA861D1F053B9D008D78F2 /* Main.storyboard */; };
+		14CA86211F053B9D008D78F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CA86201F053B9D008D78F2 /* Assets.xcassets */; };
+		14CA86241F053B9D008D78F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CA86221F053B9D008D78F2 /* LaunchScreen.storyboard */; };
+		14CA862F1F053B9D008D78F2 /* CDResumeDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA862E1F053B9D008D78F2 /* CDResumeDownloaderTests.m */; };
+		14CA863A1F053B9D008D78F2 /* CDResumeDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA86391F053B9D008D78F2 /* CDResumeDownloaderUITests.m */; };
+		14CA864C1F054085008D78F2 /* CDSessionResumeDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CA864B1F054085008D78F2 /* CDSessionResumeDownloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14CA862B1F053B9D008D78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CA86091F053B9D008D78F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CA86101F053B9D008D78F2;
+			remoteInfo = CDResumeDownloader;
+		};
+		14CA86361F053B9D008D78F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CA86091F053B9D008D78F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CA86101F053B9D008D78F2;
+			remoteInfo = CDResumeDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CA86111F053B9D008D78F2 /* CDResumeDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDResumeDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CA86151F053B9D008D78F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14CA86171F053B9D008D78F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14CA86181F053B9D008D78F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14CA861A1F053B9D008D78F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14CA861B1F053B9D008D78F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14CA861E1F053B9D008D78F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CA86201F053B9D008D78F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CA86231F053B9D008D78F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CA86251F053B9D008D78F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CA862A1F053B9D008D78F2 /* CDResumeDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDResumeDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CA862E1F053B9D008D78F2 /* CDResumeDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDResumeDownloaderTests.m; sourceTree = "<group>"; };
+		14CA86301F053B9D008D78F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CA86351F053B9D008D78F2 /* CDResumeDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDResumeDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CA86391F053B9D008D78F2 /* CDResumeDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDResumeDownloaderUITests.m; sourceTree = "<group>"; };
+		14CA863B1F053B9D008D78F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CA864A1F054085008D78F2 /* CDSessionResumeDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSessionResumeDownloader.h; path = Downloader/CDSessionResumeDownloader.h; sourceTree = "<group>"; };
+		14CA864B1F054085008D78F2 /* CDSessionResumeDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDSessionResumeDownloader.m; path = Downloader/CDSessionResumeDownloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CA860E1F053B9D008D78F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CA86271F053B9D008D78F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CA86321F053B9D008D78F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CA86081F053B9D008D78F2 = {
+			isa = PBXGroup;
+			children = (
+				14CA86131F053B9D008D78F2 /* CDResumeDownloader */,
+				14CA862D1F053B9D008D78F2 /* CDResumeDownloaderTests */,
+				14CA86381F053B9D008D78F2 /* CDResumeDownloaderUITests */,
+				14CA86121F053B9D008D78F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CA86121F053B9D008D78F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CA86111F053B9D008D78F2 /* CDResumeDownloader.app */,
+				14CA862A1F053B9D008D78F2 /* CDResumeDownloaderTests.xctest */,
+				14CA86351F053B9D008D78F2 /* CDResumeDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CA86131F053B9D008D78F2 /* CDResumeDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				14CA86491F05400D008D78F2 /* Downloader */,
+				14CA86171F053B9D008D78F2 /* AppDelegate.h */,
+				14CA86181F053B9D008D78F2 /* AppDelegate.m */,
+				14CA861A1F053B9D008D78F2 /* ViewController.h */,
+				14CA861B1F053B9D008D78F2 /* ViewController.m */,
+				14CA861D1F053B9D008D78F2 /* Main.storyboard */,
+				14CA86201F053B9D008D78F2 /* Assets.xcassets */,
+				14CA86221F053B9D008D78F2 /* LaunchScreen.storyboard */,
+				14CA86251F053B9D008D78F2 /* Info.plist */,
+				14CA86141F053B9D008D78F2 /* Supporting Files */,
+			);
+			path = CDResumeDownloader;
+			sourceTree = "<group>";
+		};
+		14CA86141F053B9D008D78F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14CA86151F053B9D008D78F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14CA862D1F053B9D008D78F2 /* CDResumeDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				14CA862E1F053B9D008D78F2 /* CDResumeDownloaderTests.m */,
+				14CA86301F053B9D008D78F2 /* Info.plist */,
+			);
+			path = CDResumeDownloaderTests;
+			sourceTree = "<group>";
+		};
+		14CA86381F053B9D008D78F2 /* CDResumeDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14CA86391F053B9D008D78F2 /* CDResumeDownloaderUITests.m */,
+				14CA863B1F053B9D008D78F2 /* Info.plist */,
+			);
+			path = CDResumeDownloaderUITests;
+			sourceTree = "<group>";
+		};
+		14CA86491F05400D008D78F2 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				14CA864A1F054085008D78F2 /* CDSessionResumeDownloader.h */,
+				14CA864B1F054085008D78F2 /* CDSessionResumeDownloader.m */,
+			);
+			name = Downloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CA86101F053B9D008D78F2 /* CDResumeDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CA863E1F053B9D008D78F2 /* Build configuration list for PBXNativeTarget "CDResumeDownloader" */;
+			buildPhases = (
+				14CA860D1F053B9D008D78F2 /* Sources */,
+				14CA860E1F053B9D008D78F2 /* Frameworks */,
+				14CA860F1F053B9D008D78F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDResumeDownloader;
+			productName = CDResumeDownloader;
+			productReference = 14CA86111F053B9D008D78F2 /* CDResumeDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14CA86291F053B9D008D78F2 /* CDResumeDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CA86411F053B9D008D78F2 /* Build configuration list for PBXNativeTarget "CDResumeDownloaderTests" */;
+			buildPhases = (
+				14CA86261F053B9D008D78F2 /* Sources */,
+				14CA86271F053B9D008D78F2 /* Frameworks */,
+				14CA86281F053B9D008D78F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CA862C1F053B9D008D78F2 /* PBXTargetDependency */,
+			);
+			name = CDResumeDownloaderTests;
+			productName = CDResumeDownloaderTests;
+			productReference = 14CA862A1F053B9D008D78F2 /* CDResumeDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14CA86341F053B9D008D78F2 /* CDResumeDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CA86441F053B9D008D78F2 /* Build configuration list for PBXNativeTarget "CDResumeDownloaderUITests" */;
+			buildPhases = (
+				14CA86311F053B9D008D78F2 /* Sources */,
+				14CA86321F053B9D008D78F2 /* Frameworks */,
+				14CA86331F053B9D008D78F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CA86371F053B9D008D78F2 /* PBXTargetDependency */,
+			);
+			name = CDResumeDownloaderUITests;
+			productName = CDResumeDownloaderUITests;
+			productReference = 14CA86351F053B9D008D78F2 /* CDResumeDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CA86091F053B9D008D78F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "饮长刀";
+				TargetAttributes = {
+					14CA86101F053B9D008D78F2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					14CA86291F053B9D008D78F2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14CA86101F053B9D008D78F2;
+					};
+					14CA86341F053B9D008D78F2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14CA86101F053B9D008D78F2;
+					};
+				};
+			};
+			buildConfigurationList = 14CA860C1F053B9D008D78F2 /* Build configuration list for PBXProject "CDResumeDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CA86081F053B9D008D78F2;
+			productRefGroup = 14CA86121F053B9D008D78F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CA86101F053B9D008D78F2 /* CDResumeDownloader */,
+				14CA86291F053B9D008D78F2 /* CDResumeDownloaderTests */,
+				14CA86341F053B9D008D78F2 /* CDResumeDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CA860F1F053B9D008D78F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CA86241F053B9D008D78F2 /* LaunchScreen.storyboard in Resources */,
+				14CA86211F053B9D008D78F2 /* Assets.xcassets in Resources */,
+				14CA861F1F053B9D008D78F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CA86281F053B9D008D78F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CA86331F053B9D008D78F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CA860D1F053B9D008D78F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CA861C1F053B9D008D78F2 /* ViewController.m in Sources */,
+				14CA864C1F054085008D78F2 /* CDSessionResumeDownloader.m in Sources */,
+				14CA86191F053B9D008D78F2 /* AppDelegate.m in Sources */,
+				14CA86161F053B9D008D78F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CA86261F053B9D008D78F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CA862F1F053B9D008D78F2 /* CDResumeDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CA86311F053B9D008D78F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CA863A1F053B9D008D78F2 /* CDResumeDownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14CA862C1F053B9D008D78F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CA86101F053B9D008D78F2 /* CDResumeDownloader */;
+			targetProxy = 14CA862B1F053B9D008D78F2 /* PBXContainerItemProxy */;
+		};
+		14CA86371F053B9D008D78F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CA86101F053B9D008D78F2 /* CDResumeDownloader */;
+			targetProxy = 14CA86361F053B9D008D78F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14CA861D1F053B9D008D78F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CA861E1F053B9D008D78F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CA86221F053B9D008D78F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CA86231F053B9D008D78F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CA863C1F053B9D008D78F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CA863D1F053B9D008D78F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CA863F1F053B9D008D78F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CDResumeDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changdao.com.CDResumeDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CA86401F053B9D008D78F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CDResumeDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changdao.com.CDResumeDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14CA86421F053B9D008D78F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CDResumeDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changdao.com.CDResumeDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDResumeDownloader.app/CDResumeDownloader";
+			};
+			name = Debug;
+		};
+		14CA86431F053B9D008D78F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CDResumeDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changdao.com.CDResumeDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDResumeDownloader.app/CDResumeDownloader";
+			};
+			name = Release;
+		};
+		14CA86451F053B9D008D78F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CDResumeDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changdao.com.CDResumeDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CDResumeDownloader;
+			};
+			name = Debug;
+		};
+		14CA86461F053B9D008D78F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CDResumeDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changdao.com.CDResumeDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CDResumeDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CA860C1F053B9D008D78F2 /* Build configuration list for PBXProject "CDResumeDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CA863C1F053B9D008D78F2 /* Debug */,
+				14CA863D1F053B9D008D78F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CA863E1F053B9D008D78F2 /* Build configuration list for PBXNativeTarget "CDResumeDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CA863F1F053B9D008D78F2 /* Debug */,
+				14CA86401F053B9D008D78F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14CA86411F053B9D008D78F2 /* Build configuration list for PBXNativeTarget "CDResumeDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CA86421F053B9D008D78F2 /* Debug */,
+				14CA86431F053B9D008D78F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14CA86441F053B9D008D78F2 /* Build configuration list for PBXNativeTarget "CDResumeDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CA86451F053B9D008D78F2 /* Debug */,
+				14CA86461F053B9D008D78F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CA86091F053B9D008D78F2 /* Project object */;
+}
